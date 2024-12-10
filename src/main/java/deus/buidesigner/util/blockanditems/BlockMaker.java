@@ -1,4 +1,4 @@
-package deus.examplemod.util.blockanditems;
+package deus.buidesigner.util.blockanditems;
 
 import net.minecraft.core.block.Block;
 import turniplabs.halplibe.helper.BlockBuilder;

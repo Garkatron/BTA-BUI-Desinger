@@ -1,4 +1,4 @@
-package deus.examplemod.guis.supercraftingtable;
+package deus.buidesigner.guis.main;
 
 import deus.guilib.guimanagement.AdvancedGui;
 import deus.guilib.guimanagement.routing.Page;

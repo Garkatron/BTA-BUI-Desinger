@@ -1,4 +1,4 @@
-package deus.examplemod.util.blockanditems;
+package deus.buidesigner.util.blockanditems;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

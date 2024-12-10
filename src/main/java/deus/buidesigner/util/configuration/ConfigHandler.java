@@ -1,14 +1,10 @@
-package deus.examplemod.util.configuration;
+package deus.buidesigner.util.configuration;
 
-import deus.examplemod.ExampleMod;
+import deus.buidesigner.BUIDesinger;
 import turniplabs.halplibe.util.TomlConfigHandler;
 import turniplabs.halplibe.util.toml.Toml;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Locale;
-
-import static deus.guilib.GuiLib.MOD_ID;
 
 public class ConfigHandler {
 
@@ -18,7 +14,7 @@ public class ConfigHandler {
 	private static final TomlConfigHandler config;
 
 	static {
-		Toml toml = new Toml(ExampleMod.MOD_ID.toUpperCase(Locale.ROOT));
+		Toml toml = new Toml(BUIDesinger.MOD_ID.toUpperCase(Locale.ROOT));
 
 		toml.addCategory("IDs")
 			.addEntry("startBlockId", 14000)
@@ -27,7 +23,7 @@ public class ConfigHandler {
 		toml.addCategory("debug")
 			.addEntry("activated", false);
 
-		config = new TomlConfigHandler(null, ExampleMod.MOD_ID, toml);
+		config = new TomlConfigHandler(null, BUIDesinger.MOD_ID, toml);
 	}
 
 	public ConfigHandler() {

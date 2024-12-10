@@ -1,16 +1,16 @@
-package deus.examplemod.guis.supercraftingtable;
+package deus.buidesigner.guis.main;
 
-import deus.examplemod.ExampleMod;
+import deus.buidesigner.BUIDesinger;
 import deus.guilib.guimanagement.routing.Page;
 import deus.guilib.guimanagement.routing.Router;
 
 public class ExamplePage extends Page {
 
 	public ExamplePage(Router router, String... text) {
-		super(ExampleMod.class, router);
+		super(BUIDesinger.class, router);
 
-		styleSheetPath = "/assets/"+ ExampleMod.MOD_ID +"/guis/ExampleBlockGui/test.yaml";
-		xmlPath = "/assets/"+ ExampleMod.MOD_ID +"/guis/ExampleBlockGui/test.xml";
+		styleSheetPath = "/assets/"+ BUIDesinger.MOD_ID +"/guis/ExampleBlockGui/test.yaml";
+		xmlPath = "/assets/"+ BUIDesinger.MOD_ID +"/guis/ExampleBlockGui/test.xml";
 		// XMLProcessor.printChildNodes(XMLProcessor.parseXML(xmlPath),"-",0);
 
 		// ! DON'T DELETE IT

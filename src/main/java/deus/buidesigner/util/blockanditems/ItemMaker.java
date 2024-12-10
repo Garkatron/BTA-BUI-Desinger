@@ -1,4 +1,4 @@
-package deus.examplemod.util.blockanditems;
+package deus.buidesigner.util.blockanditems;
 
 import net.minecraft.core.item.Item;
 import turniplabs.halplibe.helper.CreativeHelper;
